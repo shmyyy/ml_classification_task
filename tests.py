@@ -106,7 +106,7 @@ class TestMobileNetClassifier(unittest.TestCase):
     def TestRun(self):
 
         '''
-        test that are exactly the same count of lines printed to stdout as there number of files in test directory
+        test that there are exactly the same count of lines printed to stdout as there are number of files in test directory
         test that all file names from directory are output to stdout
         test that there are at least one line with the name of each class
         '''
